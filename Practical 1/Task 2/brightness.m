@@ -1,4 +1,5 @@
 function [output] = brightness(input,c)
+
 output=input+c;
 if output<0
     output=0;

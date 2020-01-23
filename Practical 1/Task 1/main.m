@@ -1,5 +1,5 @@
-boat=imread('boat256.jpg');
-dome=imread('dome256.jpg');
+boat=imread('../images/boat256.jpg');
+dome=imread('../images/dome256.jpg');
 
 
 plotRows=2;
