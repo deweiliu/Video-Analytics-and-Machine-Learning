@@ -1,4 +1,4 @@
-# Practical 1
+# Practical 2
 ## Documentation
 The Matlab scripts implement this [pratical document](practical.pdf)
 ## How to execute
