@@ -1,0 +1,20 @@
+boat_noise=imread("../images/boatnoise.jpg");
+
+% step 1
+figure
+subplot(1,2,1);
+imshow(boat_noise);
+
+% step 2
+mask=ones(3,3)/9;
+
+% step 3
+subplot(1,2,2);
+convolved_boat=uint8(conv2(boat_noise,mask,'same'));
+imshow(convolved_boat);
+
+%step 5
+noiseReduction(boat_noise,3);
+
+
+
