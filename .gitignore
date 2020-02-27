@@ -1,2 +1,5 @@
 # Matlab cache files
 *.asv
+
+# Output video files
+Practical*/task*/*.avi
