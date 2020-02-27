@@ -1,5 +1,5 @@
 function [Foreground, Background, GMM] = RunGMM(currentFrameGray,GMM)
-
+currentFrameGray=double(currentFrameGray);
 height=size(currentFrameGray,1);
 width=size(currentFrameGray,2);
 
