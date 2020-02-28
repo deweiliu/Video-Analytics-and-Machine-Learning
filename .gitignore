@@ -3,3 +3,6 @@
 
 # Output video files
 Practical*/task*/*.avi
+
+# Cache files
+*Thumbs.db

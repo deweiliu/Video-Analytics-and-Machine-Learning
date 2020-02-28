@@ -1,5 +1,5 @@
 addpath("../utilities");
-video="../resources/viptraffic.avi";
+video="../resources/shopping_center.mpg";
 video=readVideoGray(video);
 
 GMM=InitialiseGMM(video.Height,video.Width);
