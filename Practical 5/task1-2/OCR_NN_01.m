@@ -74,7 +74,7 @@ for i=1:size(images,1)
     
     testnumber= images(i,:);
     
-    classificationResult(i,1) = NNTesting(testnumber, modelNN);
+    classificationResult(i,1) = KNNTesting(testnumber, modelNN,5);
     
 end
 
