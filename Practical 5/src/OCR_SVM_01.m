@@ -1,6 +1,8 @@
 clear all
 close all
 
+addpath("./SVM-KM");
+
 %% training
 
 % Loading labels and examples of handwritten digits from MNIST Dataset
